@@ -1,0 +1,14 @@
+# List of files to ignore globally in the repository
+
+# Temporary editor files
+
+*.swp
+*.swo
+
+# Ignore the dynamic MkDocs site folder
+
+mkdocs-project/site/
+
+# Temporary Windows files
+~$*
+
