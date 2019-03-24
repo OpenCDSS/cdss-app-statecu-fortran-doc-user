@@ -56,6 +56,7 @@ C:\Users\user\                              Windows user home folder.
 /cygdrive/C/Users/user/                     Cygwin user home folder that overlaps Windows files.
   cdss-dev/                                 Projects that are part of Colorado's Decision Support Systems.
     StateCU/                                StateCU product folder.
+------------- folder names below must match --------------
       git-repos/                            Git repositories for StateCU.
         cdss-app-statecu-fortran/           StateCU source code development.
         cdss-app-statecu-fortran-doc-user/  StateCU user documentation.
@@ -118,6 +119,8 @@ This repository is maintained by the OpenCDSS team.
 
 ## Release Notes ##
 
-The following release notes indicate the update history for documentation, with GitHub repository issue indicated,
+The following release notes indicate major updates.
+See the GitHub issues for details.
 
+* 2019-03-23 - Update to MkDocs 1.04.
 * 2018-12-04 - Initial repository - basic MkDocs project wrapping legacy Word/PDF documentation.
