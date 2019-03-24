@@ -32,7 +32,7 @@ Use the navigation menu on the left to select pages and the navigation menu on t
 to select sections within a page.
 The navigation menus may be collapsed if viewing in a narrow window or mobile device.
 
-* See the [Full legacy documentation as PDF](legacy/StateCU Version 13.10 Documentation.pdf) (note that the links work
+* See the [Full legacy documentation as PDF](legacy/StateCU_07-2012.pdf) (note that the links work
 but ***Back*** may return to this page).
 
 ## Colorado's Decision Support Systems (CDSS) ##

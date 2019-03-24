@@ -3,7 +3,7 @@
 # Reference: http://www.mkdocs.org/user-guide/configuration/
 #
 site_name: 'StateCU Documentation'
-pages:
+nav:
 - 'Home': index.md
 - 'License':
   - 'StateCU License': license/statecu-license.md
@@ -30,14 +30,29 @@ pages:
 #- 'Lessons':
 #  - 'Lesson 1 - Create model configuration': lesson1-model-config.md
 # ------- configuration properties ---------------
-# Use Material theme
-# - installation notes:  https://github.com/squidfunk/mkdocs-material
-theme: material
-#repo_url:  https://github.com/OpenCDSS/cdss-app-statecu-fortran-doc-user
-site_description:  'CDSS StateCU Documentation'
-site_author: 'Colorado Department of Natural Resources'
-site_favicon:  'images/StateCU-favicon.ico'
+# Alphabetize
+# ------------------------------------------------
 copyright:  'Colorado Department of Natural Resources'
+# ------------------------------------------------
 # Use extra CSS to customize styles, based on theme
 extra_css:
   - 'css/extra-material-theme.css'
+# ------------------------------------------------
+# Google Analytics
+# - see:  https://squidfunk.github.io/mkdocs-material/getting-started/#google-analytics
+google_analytics:
+ - 'UA-43023264-1'
+ - auto
+# ------------------------------------------------
+# Don't publish the repo because it leads to irritating edit links
+#repo_url:  https://github.com/OpenCDSS/cdss-app-statecu-fortran-doc-user
+# ------------------------------------------------
+site_author: 'Colorado Department of Natural Resources'
+site_description:  'CDSS StateCU Documentation'
+# ------------------------------------------------
+# Use Material theme
+# - installation notes:  https://github.com/squidfunk/mkdocs-material
+theme:
+  name: material
+  favicon: 'images/StateCU-favicon.ico'
+# ------------------------------------------------
