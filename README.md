@@ -3,16 +3,8 @@
 This repository contains [Colorado's Decision Support Systems (CDSS)](https://www.colorado.gov/cdss) StateCU user documentation.
 See the following online resources:
 
-* OpenCDSS Documentation
-	+ Published [OpenCDSS Documentation](http://learn.openwaterfoundation.org/cdss-website-opencdss/)
-	on Open Water Foundation website - transitioning to CO DNR website
-	+ Published [OpenCDSS Documentation](https://storage.googleapis.com/static-cdss-state-co-us/opencdss/latest/)
-	on CO DWR website - not yet the final location
-* StateCU User Documentation
-	+ Published [StateCU Documentation](http://learn.openwaterfoundation.org/cdss-app-statecu-fortran-doc-user/)
-	on Open Water Foundation website - transitioning to CO DNR website
-	+ Published [StateCU  Documentation](https://storage.googleapis.com/static-cdss-state-co-us/statecu/latest/doc-user/)
-	on CO DWR website - not yet the final location
+* [OpenCDSS Documentation](http://opencdss.state.co.us/opencdss/)
+* [StateCU User Documentation](http://opencdss.state.co.us/statecu/latest/doc-user/)
 
 This page contains the following sections:
 
@@ -122,5 +114,6 @@ This repository is maintained by the OpenCDSS team.
 The following release notes indicate major updates.
 See the GitHub issues for details.
 
+* 2019-04-26 - Update to use opencdss.state.co.us. 
 * 2019-03-23 - Update to MkDocs 1.04.
 * 2018-12-04 - Initial repository - basic MkDocs project wrapping legacy Word/PDF documentation.

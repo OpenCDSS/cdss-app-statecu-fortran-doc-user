@@ -58,10 +58,9 @@ The license for StateCU software is the GPL v3 license.
 
 ## Source Repository on GitHub ##
 
-The source files for this documentation are maintained in the public GitHub repository for StateCU: [cdss-app-statecu-fortran-doc-user](https://github.com/OpenCDSS/cdss-app-statecu-fortran-doc-user).
-Documentation website files currently are copied to the Open Water Foundation [Learn / CDSS StateCU](http://learn.openwaterfoundation.org/cdss-app-statecu-fortran-doc-user/) website,
-and will be copied to an OpenCDSS website in the future.
+The source files for this documentation are maintained in the public GitHub repository
+for StateCU: [cdss-app-statecu-fortran-doc-user](https://github.com/OpenCDSS/cdss-app-statecu-fortran-doc-user).
 
 ## Release Notes ##
 
-Release notes for StateCU and this documentation will be implemented as the open source migration is finalized.
+Release notes for StateCU and this documentation will be implemented as the open source migration continues.
