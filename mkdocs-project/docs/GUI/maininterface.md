@@ -3,7 +3,7 @@ components, as described below. The example shown in [Figure 1](#figure1) below 
 interface window is similar for a Climate Station Scenario except that the CU Structures list is not provided. 
 
 <a name="figure1"></a>
-![MainInterface](/../images/figure1.png)
+![MainInterface](figure1.PNG)
 **<p style="text-align: center;">
 Figure 1 - StateCU Main Interface (<a href="/../images/figure1.png">see also the full-size image</a>)
 </p>**

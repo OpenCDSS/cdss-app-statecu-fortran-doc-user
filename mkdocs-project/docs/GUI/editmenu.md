@@ -5,9 +5,9 @@ command under the __Edit__ menu is not visible and the information shown under t
 and Climate Station Information windows is limited. 
 
 <a name="figure19"></a>
-![FileMenu](/../images/figure19.png)
+![FileMenu](figure19.PNG)
 **<p style="text-align: center;">
-Figure 19 - Edit Menu (<a href="/../images/figure19.png">see also the full-size image</a>)
+Figure 19 - Edit Menu (<a href="figure19.PNG">see also the full-size image</a>)
 </p>**
 
 Several input data files available under the Edit Menu allow the user to view and edit input data, including
@@ -91,9 +91,9 @@ deselect input file names to copy by holding down the CTRL key while selecting f
 mouse button. 
 
 <a name="figure20"></a>
-![FileMenu](/../images/figure20.png)
+![FileMenu](figure20.PNG)
 **<p style="text-align: center;">
-Figure 20 - Input File List Window (<a href="/../images/figure20.png">see also the full-size image</a>)
+Figure 20 - Input File List Window (<a href="figure20.PNG">see also the full-size image</a>)
 </p>**
 
 To save changes to the Input File List, select __Save__ from the __File__ menu. This command saves changes over
@@ -103,9 +103,9 @@ File (RCU)__ window can be determined by selecting the __Input File Info__ comma
 [(Figure 21)](#figure21). 
 
 <a name="figure21"></a>
-![FileMenu](/../images/figure21.png)
+![FileMenu](figure21.PNG)
 **<p style="text-align: center;">
-Figure 21 - Input File Information Window (<a href="/../images/figure21.png">see also the full-size image</a>)
+Figure 21 - Input File Information Window (<a href="figure21.PNG">see also the full-size image</a>)
 </p>**
 
 A File menu and Help menu similar to those shown above are provided for each command under the Edit
@@ -127,9 +127,9 @@ __General__ [(Figure 22)](#figure22):
 of data that is available in every input file containing time series data).
 
 <a name="figure22"></a>
-![FileMenu](/../images/figure22.png)
+![FileMenu](figure22.PNG)
 **<p style="text-align: center;">
-Figure 22 - Model Control Options - General (<a href="/../images/figure22.png">see also the full-size image</a>)
+Figure 22 - Model Control Options - General (<a href="figure22.PNG">see also the full-size image</a>)
 </p>**
 
 __Analysis Options__ [(Figure 23)](#figure23):
@@ -167,9 +167,9 @@ need to be offset, select the ‘Yes – allow neg values’ drain option. See [
 information on drain file usage. 
 
 <a name="figure23"></a>
-![FileMenu](/../images/figure23.png)
+![FileMenu](figure23.PNG)
 **<p style="text-align: center;">
-Figure 23 - Model Control Options - Analysis Options (<a href="/../images/figure23.png">see also the full-size image</a>)
+Figure 23 - Model Control Options - Analysis Options (<a href="figure23.PNG">see also the full-size image</a>)
 </p>**
 
 __More Options__ [(Figure 24)](#figure24):
@@ -198,9 +198,9 @@ structure (*.4wb), selected from a pull down list.
 irrigation water requirement (*.ddc) in the standard StateMod format.
 
 <a name="figure24"></a>
-![FileMenu](/../images/figure24.png)
+![FileMenu](figure24.PNG)
 **<p style="text-align: center;">
-Figure 24 - Model Control Options - More Options (<a href="/../images/figure24.png">see also the full-size image</a>)
+Figure 24 - Model Control Options - More Options (<a href="figure24.PNG">see also the full-size image</a>)
 </p>**
 
 When the __Save__ or __Save As…__ command is selected from the File menu, the user will be prompted for a new
@@ -216,9 +216,9 @@ determination of senior or junior diversions in a StateCU execution and the asso
 characterized by priority (only available for a __Structure Scenario__). 
 
 <a name="figure25"></a>
-![FileMenu](/../images/figure25.png)
+![FileMenu](figure25.PNG)
 **<p style="text-align: center;">
-Figure 25 - Diversions/Administration Processing Window (<a href="/../images/figure25.png">see also the full-size image</a>)
+Figure 25 - Diversions/Administration Processing Window (<a href="figure25.PNG">see also the full-size image</a>)
 </p>**
 
 If water rights are being considered in the analysis (see [Section 2.5.2](#252-model-control-options)), the user can select an option that will
@@ -266,9 +266,9 @@ information on how to edit data. To save changes to the daily diversion data for
 __Save__ or __Save As…__ command from the __View/Edit Historical Daily Diversion Data…File__ menu. 
 
 <a name="figure26"></a>
-![FileMenu](/../images/figure26.png)
+![FileMenu](figure26.PNG)
 **<p style="text-align: center;">
-Figure 26 - View Daily Diversion Data Window (<a href="/../images/figure26.png">see also the full-size image</a>)
+Figure 26 - View Daily Diversion Data Window (<a href="figure26.PNG">see also the full-size image</a>)
 </p>**
 
 ####2.5.2.3 - Edit Monthly/Daily Administration Data####
@@ -287,9 +287,9 @@ will be prompted for a new monthly (\*.adm) or daily (\*.add) administration dat
 response file name. The administration data file name is written to the response (\*.rcu) file. 
 
 <a name="figure27"></a>
-![FileMenu](/../images/figure27.png)
+![FileMenu](figure27.PNG)
 **<p style="text-align: center;">
-Figure 27 - View/Edit Administration Data Window (<a href="/../images/figure27.png">see also the full-size image</a>)
+Figure 27 - View/Edit Administration Data Window (<a href="figure27.PNG">see also the full-size image</a>)
 </p>**
 
 ####2.5.2.4 - View/Edit Soil Moisture Variables####
@@ -299,9 +299,9 @@ window activates the __Soil Moisture Variables__ window ([Figure 28](#figure28))
 parameters that control modeling of soil moisture in a StateCU execution. 
 
 <a name="figure28"></a>
-![FileMenu](/../images/figure28.png)
+![FileMenu](figure28.PNG)
 **<p style="text-align: center;">
-Figure 28 -  Soil Moisture Variables Window (with and without Water Rights) (<a href="/../images/figure28.png">see also the full-size image</a>)
+Figure 28 -  Soil Moisture Variables Window (with and without Water Rights) (<a href="figure28.PNG">see also the full-size image</a>)
 </p>**
 
 If the __Water Rights__ option under the __Model Control Options__ window is selected (see [Section 2.5.2](#252-model-control-options)), the
@@ -366,9 +366,9 @@ command is selected from the __File__ menu, the user will be prompted for a new 
 the response (\*.rcu) file. 
 
 <a name="figure29"></a>
-![FileMenu](/../images/figure29.png)
+![FileMenu](figure29.PNG)
 **<p style="text-align: center;">
-Figure 29 -  Climate Station Information Window with a _Climate Station_ (<a href="/../images/figure29.png">see also the full-size image</a>)
+Figure 29 -  Climate Station Information Window with a _Climate Station_ (<a href="figure29.PNG">see also the full-size image</a>)
 </p>**
 
 ####2.5.3.1 - View/Edit Historical Climate Data####
@@ -384,9 +384,9 @@ climate data file name (e.g. \*.prc, \*.tmp) and associated response file name. 
 name is written to the response (\*.rcu) file. 
 
 <a name="figure30"></a>
-![FileMenu](/../images/figure30.png)
+![FileMenu](figure30.PNG)
 **<p style="text-align: center;">
-Figure 30 -  View/Edit Historical Climate Data (<a href="/../images/figure30.png">see also the full-size image</a>)
+Figure 30 -  View/Edit Historical Climate Data (<a href="figure30.PNG">see also the full-size image</a>)
 </p>**
 
 ####2.5.3.2 - View/Edit Crop Types####
@@ -411,9 +411,9 @@ and associated response file name. The new crop distribution file name is writte
 file. 
 
 <a name="figure31"></a>
-![FileMenu](/../images/figure31.png)
+![FileMenu](figure31.PNG)
 **<p style="text-align: center;">
-Figure 31 -  Crop Information Window for a _Climate Station Scenario_ (<a href="/../images/figure31.png">see also the full-size image</a>)
+Figure 31 -  Crop Information Window for a _Climate Station Scenario_ (<a href="figure31.PNG">see also the full-size image</a>)
 </p>**
 
 ####2.5.3.3 - Field Location####
@@ -457,9 +457,9 @@ adjustment of 1.0 (no adjustment). These default adjustments can be changed and 
 GUI. An orographic adjustment is not currently allowed for the daily ASCE Standardized PenmanMonteith method. 
 
 <a name="figure32"></a>
-![FileMenu](/../images/figure32.png)
+![FileMenu](figure32.PNG)
 **<p style="text-align: center;">
-Figure 32 -  Climate Station Assignments Window (<a href="/../images/figure32.png">see also the full-size image</a>)
+Figure 32 -  Climate Station Assignments Window (<a href="figure32.PNG">see also the full-size image</a>)
 </p>**
 
 When the __Save__ or __Save As…__ command is selected from the __Climate Station Assignments__ window, the
@@ -512,9 +512,9 @@ structure can be viewed (non-editable) in the __Water Rights Information__ box i
 of the __Structure Information__ window. 
 
 <a name="figure33"></a>
-![FileMenu](/../images/figure33.png)
+![FileMenu](figure33.PNG)
 **<p style="text-align: center;">
-Figure 33 -  Structure Information Window (<a href="/../images/figure33.png">see also the full-size image</a>)
+Figure 33 -  Structure Information Window (<a href="figure33.PNG">see also the full-size image</a>)
 </p>**
 
 When the __Save__ or __Save As…__ command is selected from the __Structure Information__ window, only changes
@@ -566,9 +566,9 @@ direct diversion (\*.ddh) file name and the associated response file name. The n
 file name will be written to the response (\*.rcu) file. 
 
 <a name="figure34"></a>
-![FileMenu](/../images/figure34.png)
+![FileMenu](figure34.PNG)
 **<p style="text-align: center;">
-Figure 34 -  View/Edit Historical Diversion Data Window (<a href="/../images/figure34.png">see also the full-size image</a>)
+Figure 34 -  View/Edit Historical Diversion Data Window (<a href="figure34.PNG">see also the full-size image</a>)
 </p>**
 
 ####2.5.4.3 - View Historical Ground Water Pumping Data####
@@ -599,9 +599,9 @@ When the __Save__ or __Save As…__ command is selected from the __Crop Informat
 be made to the crop distribution (\*.cds) file and the new file name will be written to the response (\*.rcu) file.
 
 <a name="figure35"></a>
-![FileMenu](/../images/figure35.png)
+![FileMenu](figure35.PNG)
 **<p style="text-align: center;">
-Figure 35 -  Crop Information Window with a _Structure Scenario_ (<a href="/../images/figure35.png">see also the full-size image</a>)
+Figure 35 -  Crop Information Window with a _Structure Scenario_ (<a href="figure35.PNG">see also the full-size image</a>)
 </p>**
 
 ####2.5.4.5 - View/Edit Historical Efficiency Data####
@@ -619,9 +619,9 @@ When __Save__ or __Save As…__ is selected, the user will be prompted for a new
 written to the response (\*.rcu) file. 
 
 <a name="figure36"></a>
-![FileMenu](/../images/figure36.png)
+![FileMenu](figure36.PNG)
 **<p style="text-align: center;">
-Figure 36 -  View/Edit Historical Efficiency Data Window (<a href="/../images/figure36.png">see also the full-size image</a>)
+Figure 36 -  View/Edit Historical Efficiency Data Window (<a href="figure36.PNG">see also the full-size image</a>)
 </p>**
 
 ####2.5.4.6 - View/Edit Irrigation Method and Maximum Pumping Rate Data####
@@ -660,9 +660,9 @@ When __Save__ or __Save As…__ is selected, the user will be prompted for a new
 be written to the response (\*.rcu) file. 
 
 <a name="figure37"></a>
-![FileMenu](/../images/figure37.png)
+![FileMenu](figure37.PNG)
 **<p style="text-align: center;">
-Figure 37 -  View/Edit Historical Irrigation Method Data (<a href="/../images/figure37.png">see also the full-size image</a>)
+Figure 37 -  View/Edit Historical Irrigation Method Data (<a href="figure37.PNG">see also the full-size image</a>)
 </p>**
 
 ###2.5.5 - Crop Characteristics/Coefficients###
@@ -686,9 +686,9 @@ crop characteristic file name and the associated response file name. The new cro
 will be written to the response (*.rcu) file. 
 
 <a name="figure38"></a>
-![FileMenu](/../images/figure38.png)
+![FileMenu](figure38.PNG)
 **<p style="text-align: center;">
-Figure 38 -  Crop Characteristics/Coefficients Window (<a href="/../images/figure38.png">see also the full-size image</a>)
+Figure 38 -  Crop Characteristics/Coefficients Window (<a href="figure38.PNG">see also the full-size image</a>)
 </p>**
 
 ####2.5.5.1 - View/Edit Crop Coefficients####
@@ -716,8 +716,8 @@ file name (\*.kbc) and the associated response file name. The new crop coefficie
 to the response (\*.rcu) file. 
 
 <a name="figure39"></a>
-![FileMenu](/../images/figure39.png)
+![FileMenu](figure39.PNG)
 **<p style="text-align: center;">
-Figure 39 -  Crop Coefficients Window (<a href="/../images/figure39.png">see also the full-size image</a>)
+Figure 39 -  Crop Coefficients Window (<a href="figure39.PNG">see also the full-size image</a>)
 </p>**
 

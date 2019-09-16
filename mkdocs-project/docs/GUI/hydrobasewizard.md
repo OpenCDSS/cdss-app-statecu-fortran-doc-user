@@ -13,9 +13,9 @@ through the __File__ menu. [Figure 5](#figure5) displays the introductory screen
 have an __Exit__ button. Select the __OK__ button to proceed to Step 1. 
 
 <a name="figure5"></a>
-![FileMenu](/../images/figure5.png)
+![FileMenu](figure5.PNG)
 **<p style="text-align: center;">
-Figure 5 - StateCU Scenario Wizard Welcome (<a href="/../images/figure5.png">see also the full-size image</a>)
+Figure 5 - StateCU Scenario Wizard Welcome (<a href="figure5.PNG">see also the full-size image</a>)
 </p>**
 
 Step 1 of the Wizard [(Figure 6)](#figure6) determines if the user would like to create a _Climate Station Scenario_ or a
@@ -40,9 +40,9 @@ will receive the same scenario ‘base’ name. The Wizard saves all new scenari
 C:\CDSS\Data\StateCUWizard directory. Click on the __Continue__ button to move to the next step. 
 
 <a name="figure6"></a>
-![FileMenu](/../images/figure6.png)
+![FileMenu](figure6.PNG)
 **<p style="text-align: center;">
-Figure 6 - Step 1 of Wizard - Analysis Options (<a href="/../images/figure6.png">see also the full-size image</a>)
+Figure 6 - Step 1 of Wizard - Analysis Options (<a href="figure6.PNG">see also the full-size image</a>)
 </p>**
 
 The following steps in the Wizard are dependent on which type of scenario is being developed. See [Section
@@ -82,15 +82,15 @@ adjustment preferences can also be edited through the GUI. Click on the __Contin
 the crop data to move to the next step. 
 
 <a name="figure7"></a>
-![FileMenu](/../images/figure7.png)
+![FileMenu](figure7.PNG)
 **<p style="text-align: center;">
-Figure 7 - Step 2 of Wizard - Crop Selection (<a href="/../images/figure7.png">see also the full-size image</a>)
+Figure 7 - Step 2 of Wizard - Crop Selection (<a href="figure7.PNG">see also the full-size image</a>)
 </p>**
 
 <a name="figure8"></a>
-![FileMenu](/../images/figure8.png)
+![FileMenu](figure8.PNG)
 **<p style="text-align: center;">
-Figure 8 - Crop Information (<a href="/../images/figure8.png">see also the full-size image</a>)
+Figure 8 - Crop Information (<a href="figure8.PNG">see also the full-size image</a>)
 </p>**
 
 Step 3 of the Wizard [(Figure 9)](#figure9) determines which climate station(s) will be used in the analysis. The
@@ -129,9 +129,9 @@ only climate station in a scenario would not produce analysis results. Click on 
 selecting all climate stations to move to the next step.
 
 <a name="figure9"></a>
-![FileMenu](/../images/figure9.png)
+![FileMenu](figure9.PNG)
 **<p style="text-align: center;">
-Figure 9 - Step 3 of the Wizard - Climate Station Selection (<a href="/../images/figure9.png">see also the full-size image</a>)
+Figure 9 - Step 3 of the Wizard - Climate Station Selection (<a href="figure9.PNG">see also the full-size image</a>)
 </p>**
 
 After completing the climate station selection in Step 3 of the Wizard, the user has determined all of the
@@ -152,9 +152,9 @@ automatically be loaded into StateCU, whereby the user can review and edit data,
 use analysis.
 
 <a name="figure10"></a>
-![FileMenu](/../images/figure10.png)
+![FileMenu](figure10.PNG)
 **<p style="text-align: center;">
-Figure 10 - Final Step of the Wizard - Create New Scenario (<a href="/../images/figure10.png">see also the full-size image</a>)
+Figure 10 - Final Step of the Wizard - Create New Scenario (<a href="figure10.PNG">see also the full-size image</a>)
 </p>**
 
 Several parameters and modeling options are not specifically input by the user into the Wizard, rather it is
@@ -167,9 +167,9 @@ that is activated once the scenario is created. The following is a list of these
 * Crop types and crop acreages is fixed for all years 
 
 <a name="figure11"></a>
-![FileMenu](/../images/figure11.png)
+![FileMenu](figure11.PNG)
 **<p style="text-align: center;">
-Figure 11 - Climate Station Scenario Default Wizard Settings (<a href="/../images/figure11.png">see also the full-size image</a>)
+Figure 11 - Climate Station Scenario Default Wizard Settings (<a href="figure11.PNG">see also the full-size image</a>)
 </p>**
 
 ###2.4.2 - Structure Scenario Creation through Wizard###
@@ -211,15 +211,15 @@ and click __OK__. The selected diversion classes are summed and will over-ride t
 If no diversion classes are selected in Step 2A, the default of total diversions will be used. 
 
 <a name="figure12"></a>
-![FileMenu](/../images/figure12.png)
+![FileMenu](figure12.PNG)
 **<p style="text-align: center;">
-Figure 12 - Step 2 of Wizard - Diversion Structure Selection (<a href="/../images/figure12.png">see also the full-size image</a>)
+Figure 12 - Step 2 of Wizard - Diversion Structure Selection (<a href="figure12.PNG">see also the full-size image</a>)
 </p>**
 
 <a name="figure13"></a>
-![FileMenu](/../images/figure13.png)
+![FileMenu](figure13.PNG)
 **<p style="text-align: center;">
-Figure 13 - Step 2A of Wizard - Diversion Class Selection (<a href="/../images/figure13.png">see also the full-size image</a>)
+Figure 13 - Step 2A of Wizard - Diversion Class Selection (<a href="figure13.PNG">see also the full-size image</a>)
 </p>**
 
 Step 3 of the Wizard [(Figure 14)](#figure14) determines which crop(s) will be used in the analysis. Crops, and their
@@ -265,9 +265,9 @@ edited through the GUI. Click on the __Continue__ button after entering all the 
 step. 
 
 <a name="figure14"></a>
-![FileMenu](/../images/figure14.png)
+![FileMenu](figure14.PNG)
 **<p style="text-align: center;">
-Figure 14 - Step 3 of Wizard - Crop Selection (<a href="/../images/figure14.png">see also the full-size image</a>)
+Figure 14 - Step 3 of Wizard - Crop Selection (<a href="figure14.PNG">see also the full-size image</a>)
 </p>**
 
 Step 4 of the Wizard [(Figure 15)](#figure15) determines which climate station(s) will be used in the analysis. The
@@ -301,9 +301,9 @@ stations in a scenario would not produce analysis results. Click on the __Contin
 climate stations to move to the next step. 
 
 <a name="figure15"></a>
-![FileMenu](/../images/figure15.png)
+![FileMenu](figure15.PNG)
 **<p style="text-align: center;">
-Figure 15 - Step 4 of Wizard - Climate Station Selection (<a href="/../images/figure15.png">see also the full-size image</a>)
+Figure 15 - Step 4 of Wizard - Climate Station Selection (<a href="figure15.PNG">see also the full-size image</a>)
 </p>**
 
 After completing the climate station selection in Step 4 of the Wizard, the user has determined all of the
@@ -324,9 +324,9 @@ information is stored in the header of the model control options file (*.ccu). S
 Scenario__ to complete the creation of the scenario. 
 
 <a name="figure16"></a>
-![FileMenu](/../images/figure16.png)
+![FileMenu](figure16.PNG)
 **<p style="text-align: center;">
-Figure 16 - Final Step of Wizard - Create New Scenario (<a href="/../images/figure16.png">see also the full-size image</a>)
+Figure 16 - Final Step of Wizard - Create New Scenario (<a href="figure16.PNG">see also the full-size image</a>)
 </p>**
 
 Several parameters and modeling options are not specifically input by the user into the Wizard, rather it is
@@ -344,9 +344,9 @@ that is activated once the scenario is created. The following is a list of these
 * No soil moisture accounting and structure available water capacity is set to zero 
 
 <a name="figure17"></a>
-![FileMenu](/../images/figure17.png)
+![FileMenu](figure17.PNG)
 **<p style="text-align: center;">
-Figure 17 - Structure Scenario Wizard Default Settings (<a href="/../images/figure17.png">see also the full-size image</a>)
+Figure 17 - Structure Scenario Wizard Default Settings (<a href="figure17.PNG">see also the full-size image</a>)
 </p>**
 
 ####2.4.2.1 - Create New Non-HydroBase Structure Scenario ####
@@ -374,7 +374,7 @@ outlined in [Section 2.4.2](#242-structure-scenario-creation-through-wizard). As
 responsibility to review and edit input data through the GUI to obtain accurate results. 
 
 <a name="figure18"></a>
-![FileMenu](/../images/figure18.png)
+![FileMenu](figure18.PNG)
 **<p style="text-align: center;">
-Figure 18 - Example New Non-HydroBase Structure Scenario (<a href="/../images/figure18.png">see also the full-size image</a>)
+Figure 18 - Example New Non-HydroBase Structure Scenario (<a href="figure18.PNG">see also the full-size image</a>)
 </p>**

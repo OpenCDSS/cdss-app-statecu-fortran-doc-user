@@ -18,9 +18,9 @@ FORTRAN output options in detail. The __Time Series Data Report Generator__ is d
 [Section 2.7.1](#271-time-series-data-report-generator). 
 
 <a name="figure40"></a>
-![FileMenu](/../images/figure40.png)
+![FileMenu](figure40.PNG)
 **<p style="text-align: center;">
-Figure 40 -  Results Menu Commands (<a href="/../images/figure40.png">see also the full-size image</a>)
+Figure 40 -  Results Menu Commands (<a href="figure40.PNG">see also the full-size image</a>)
 </p>**
 
 ###2.7.1 - Time Series Data Report Generator###
@@ -59,9 +59,9 @@ Note that under a daily analysis (e.g. ASCE Standardized Penman-Monteith), only 
 viewed through the Time Series Data Tool. Daily results can be viewed from the \*.opm output file. 
 
 <a name="figure41"></a>
-![FileMenu](/../images/figure41.png)
+![FileMenu](figure41.PNG)
 **<p style="text-align: center;">
-Figure 41 -  Time Series Data Tool (<a href="/../images/figure41.png">see also the full-size image</a>)
+Figure 41 -  Time Series Data Tool (<a href="figure41.PNG">see also the full-size image</a>)
 </p>**
 
 To create and view a graph, select the __Excel Graph and Worksheet__ command button. The __Tabular Data
@@ -87,9 +87,9 @@ prompt the user for changes before closing. If Excel is not available on the use
 Series Graph__ option is not available.
 
 <a name="figure42"></a>
-![FileMenu](/../images/figure42.png)
+![FileMenu](figure42.PNG)
 **<p style="text-align: center;">
-Figure 42 -  Time Series Data Tool Graphical Results (<a href="/../images/figure42.png">see also the full-size image</a>)
+Figure 42 -  Time Series Data Tool Graphical Results (<a href="figure42.PNG">see also the full-size image</a>)
 </p>**
 
 ####2.7.1.2 - Tabular Data Preview####
@@ -106,9 +106,9 @@ viewing and exporting options available at the bottom of the window. Select the 
 the __Time Series Data Tool__ window. 
 
 <a name="figure43"></a>
-![FileMenu](/../images/figure43.png)
+![FileMenu](figure43.PNG)
 **<p style="text-align: center;">
-Figure 43 -  Time Series Table (<a href="/../images/figure43.png">see also the full-size image</a>)
+Figure 43 -  Time Series Table (<a href="figure43.PNG">see also the full-size image</a>)
 </p>**
 
 ####2.7.1.3 - Time Series Summary####
@@ -121,9 +121,9 @@ automatically save the results exported to Notepad. To save results, the user mu
 from Notepad before closing the Notepad window. 
 
 <a name="figure44"></a>
-![FileMenu](/../images/figure44.png)
+![FileMenu](figure44.PNG)
 **<p style="text-align: center;">
-Figure 44 -  Time Series Summary File (<a href="/../images/figure44.png">see also the full-size image</a>)
+Figure 44 -  Time Series Summary File (<a href="figure44.PNG">see also the full-size image</a>)
 </p>**
 
 ####2.7.1.4 - StateMod STM File####
@@ -147,9 +147,9 @@ the name of the structure, data type(s), time period and file path name. The \*.
 a text editor; an example \*.ccr is shown in [Figure 45](#figure45). 
 
 <a name="figure45"></a>
-![FileMenu](/../images/figure45.png)
+![FileMenu](figure45.PNG)
 **<p style="text-align: center;">
-Figure 45 -  Custom Columnar Report File (<a href="/../images/figure45.png">see also the full-size image</a>)
+Figure 45 -  Custom Columnar Report File (<a href="figure45.PNG">see also the full-size image</a>)
 </p>**
 
 ####2.7.1.6 - IDS AWAS 'Import' File####
@@ -177,13 +177,13 @@ program. An example of this file is shown in [Figure 47](#figure47). See [Sectio
 an AWAS ‘Import’ file. 
 
 <a name="figure46"></a>
-![FileMenu](/../images/figure46.png)
+![FileMenu](figure46.PNG)
 **<p style="text-align: center;">
-Figure 46 -  AWAS Import File - Surface Return Flow Percentage (<a href="/../images/figure46.png">see also the full-size image</a>)
+Figure 46 -  AWAS Import File - Surface Return Flow Percentage (<a href="figure46.PNG">see also the full-size image</a>)
 </p>**
 
 <a name="figure47"></a>
-![FileMenu](/../images/figure47.png)
+![FileMenu](figure47.PNG)
 **<p style="text-align: center;">
-Figure 47 -  AWAS Import File (<a href="/../images/figure47.png">see also the full-size image</a>)
+Figure 47 -  AWAS Import File (<a href="figure47.PNG">see also the full-size image</a>)
 </p>**

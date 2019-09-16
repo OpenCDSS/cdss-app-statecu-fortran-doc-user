@@ -2,7 +2,7 @@ Commands under the File menu shown in [Figure 2](#figure2) below allow existing 
 exited. 
 
 <a name="figure2"></a>
-![FileMenu](/../images/figure2.png)
+![FileMenu](figure2.PNG)
 **<p style="text-align: center;">
 Figure 2 - File Menu Commands (<a href="/../images/figure2.png">see also the full-size image</a>)
 </p>**
@@ -41,7 +41,7 @@ __Edit…Select All__ option or individually select or deselect input file names
 CTRL key while selecting file names with the LEFT mouse button. 
 
 <a name="figure3"></a>
-![ViewScenario](/../images/figure3.png)
+![ViewScenario](figure3.PNG)
 **<p style="text-align: center;">
 Figure 3 - View/Edit Scenario File (RCU) (<a href="/../images/figure3.png">see also the full-size image</a>)
 </p>**
@@ -99,7 +99,7 @@ response file to be saved in a different location or to a different name. Select
 menu to view the path and filename of the active input file. 
 
 <a name="figure4"></a>
-![NewScenario](/../images/figure4.png)
+![NewScenario](figure4.PNG)
 **<p style="text-align: center;">
 Figure 4 - Create New Scenario (<a href="/../images/figure4.png">see also the full-size image</a>)
 </p>**

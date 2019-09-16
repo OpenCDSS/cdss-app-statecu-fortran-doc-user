@@ -4,7 +4,7 @@ under each of these options is only for the user’s information, no input param
 these commands. 
 
 <a name="figure48"></a>
-![FileMenu](/../images/figure48.png)
+![FileMenu](figure48.PNG)
 **<p style="text-align: center;">
 Figure 48 -  Help Menu Commands (<a href="/../images/figure48.png">see also the full-size image</a>)
 </p>**
