@@ -216,8 +216,8 @@ echo "statecuVersion=$statecuVersion"
 
 # Set --dryrun to test before actually doing
 dryrun=""
-gsFolderLatest="gs://static-cdss-state-co-us/statecu/latest/doc-user"
-gsFolderVersion="gs://static-cdss-state-co-us/statecu/${statecuVersion}/doc-user"
+gsFolderLatest="gs://opencdss.state.co.us/statecu/latest/doc-user"
+gsFolderVersion="gs://opencdss.state.co.us/statecu/${statecuVersion}/doc-user"
 
 # Whether to copy to latest in addition to the specific version
 # - default to no because the script can be run on any version, and can't assume latest
