@@ -4,55 +4,160 @@
 #
 site_name: 'StateCU Documentation'
 nav:
-- 'Home': index.md
-- 'License':
-  - 'StateCU License': license/statecu-license.md
-  - 'GPL v3 License': license/LICENSE.md
-- 'StateCU Documentation': legacy/doc.md
-# Uncomment sections as needed if the Word is converted to MkDocs
-# - the following is from StateMod
-#- '1 - Acknowledgement': acknowledgement/acknowledgement.md
-#- '2 - Introduction': introduction/introduction.md
-#- '3 - Model Description': description/description.md
-#- '4 - Input Description':
-#  - 'Overview': input/overview.md
-#  - 'Response File': input/ResponseFile.md
-#  - 'OperatingRules':
-#     - input/OperatingRules.md
-#     - 'OperatingRule 1': input/OperatingRule-1/OperatingRule-1.md
-#- '5 - Output Description': output/output.md
-#- '6 - Model Operation': operation/operation.md
-#- '7 - Modeling Procedures': procedures/procedures.md
-#- '8 - Supporting Utilities': utilities/utilities.md
-#- '9 - Discontinued but Supported Files': discontinued-files/discontinued-files.md
-#- 'Examples':
-#  - 'Overview': examples/overview.md
-#- 'Lessons':
-#  - 'Lesson 1 - Create model configuration': lesson1-model-config.md
+- Home: index.md
+- 1 - Introduction: Introduction/introduction.md
+- 2 - Graphical User Interface:
+  - 2.1 - Introduction: GUI/introduction.md
+  - 2.2 - Main Interface: GUI/maininterface.md
+  - 2.3 - File Menu: GUI/filemenu.md
+  - 2.4 - HydroBase Wizard: GUI/hydrobasewizard.md
+  - 2.5 - Edit Menu: GUI/editmenu.md
+  - 2.6 - Run Menu: GUI/runmenu.md
+  - 2.7 - Results Menu: GUI/resultsmenu.md
+  - 2.8 - Help Menu: GUI/helpmenu.md
+- 3 - Model Description:
+  - 3.1 - Crop Irrigation Water Requirement by CU Location: Model Description/CropIrr.md
+  - 3.2 - Water Supply Limited Crop Consumptive Use by Structure: Model Description/WaterSupplyStructure.md
+  - 3.3 - Water Supply Limited Crop Consumptive Use by Structure Considering Ground Water: Model Description/WaterSupplyStructureGW.md
+  - 3.4 - Water Supply Limited Crop Consumptive Use by Structure and Priority: Model Description/WaterSupplyStructurePriority.md
+  - 3.5 - StateCU Advanced Modeling Options: Model Description/StateCU.md
+- 4 - Input Description: 
+  - 4.1 - Input File Development: Input Description/41.md
+  - 4.2 - Remarks: Input Description/42.md
+  - 4.3 - StateCU Response File (*.rcu): Input Description/43.md
+  - 4.4 - Model Control File (*.ccu): Input Description/44.md
+  - 4.5 - Climate Station Information File (*.cli): Input Description/45.md
+  - 4.6 - Structure Location File (*.str): Input Description/46.md
+  - 4.7 - Monthly Temperature File (*.tmp): Input Description/47.md
+  - 4.8 - Monthly Precipitation File (*.prc): Input Description/48.md
+  - 4.9 - Front Date File (*.fd): Input Description/49.md
+  - 4.10 - Crop Characteristic File (*.cch): Input Description/410.md
+  - 4.11 - Blaney-Criddle Crop Coefficient File (*.kbc): Input Description/411.md
+  - 4.12 - Crop Distribution File (*.cds): Input Description/412.md
+  - 4.13 - Historical Direct Diversion File (*.ddh): Input Description/413.md
+  - 4.14 - Ground Water Pumping File (*.pvh): Input Description/414.md
+  - 4.15 - Irrigation Parameter Yearly Data File (*.ipy): Input Description/415.md
+  - 4.16 - Direct Diversion Rights File (*.ddr): Input Description/416.md
+  - 4.17 - Monthly Administration Number Time Series File (*.adm): Input Description/417.md
+  - 4.18 - Daily Administration Number Time Series File (*.add): Input Description/418.md
+  - 4.19 - Daily Historical Diversion File (*.ddy): Input Description/419.md
+  - 4.20 - Penman-Monteith Crop Coefficient File (*.kpm): Input Description/420.md
+  - 4.21 - Modified Hargreaves Crop Coefficient File (*.kmh): Input Description/421.md
+  - 4.22 - Daily Maximum Temperature File (*.tmx): Input Description/422.md
+  - 4.23 - Daily Minimum Temperature File (*.tmn): Input Description/423.md
+  - 4.24 - Daily Precipitation File (*.pdy): Input Description/424.md
+  - 4.25 - Daily Solar Radiation File (*.sol): Input Description/425.md
+  - 4.26 - Daily Vapor Pressure File (*.vap): Input Description/426.md
+  - 4.27 - Daily Wind Speed File (*.wnd): Input Description/427.md
+  - 4.28 - Monthly Drain File (*.dra): Input Description/428.md
+  - 4.29 - Monthly Replacement Crop Requirement (*.rcr): Input Description/429.md
+  - 4.30 - Monthly Partial Crop Requirement (*.pcr): Input Description/430.md
+  - 4.31 - GUI-Specific GIS Shape Files: Input Description/431.md
+- 5 - Output Description:
+  - 5.1 - Remarks: Output Description/51.md
+  - 5.2 - Input Summary Output File (*.sum): Output Description/52.md
+  - 5.3 - Crop Irrigation Water Requirement File (*.cir): Output Description/53.md
+  - 5.4 - Water Supply Limited Consumptive Use Output File (*.wsl): Output Description/54.md
+  - 5.5 - Water Budget (for Simulation) Output File (*.swb): Output Description/55.md
+  - 5.6 - Water Budget (by Structure) Output File (*.dwb): Output Description/56.md
+  - 5.7 - Detailed Structure Water Budget by Land Category File (*.4wb): Output Description/57.md
+  - 5.8 - Detailed Blaney-Criddle Summary Output File (*.obc): Output Description/58.md
+  - 5.9 - Detailed Penman-Monteith Output File (*.opm): Output Description/59.md
+  - 5.10 - Detailed Modified Hargreaves Output File (*.omh): Output Description/510.md
+  - 5.11 - StateMod Formatted Crop Irrigation Water Requirement File (*.ddc): Output Description/511.md
+  - 5.12 - StateMod Formatted Ground Water Pumping File (*.gwp): Output Description/512.md
+  - 5.13 - StateMod Formatted Average Monthly Efficiency Files (*.def, *.wef): Output Description/513.md
+  - 5.14 - StateCU Binary Output File (*.bd1): Output Description/514.md
+  - 5.15 - Simulation Log File (*.log): Output Description/515.md
+  - 5.16 - Growing Season File (season.csv): Output Description/516.md
+- 6 - Model Operation:
+  - 6.1 - Model Execution: Model Operation/61.md
+  - 6.2 - Organization: Model Operation/62.md
+  - 6.3 - Consumptive Use Component: Model Operation/63.md
+  - 6.4 - Structure Water Budget Component: Model Operation/64.md
+- 7 - Frequently Asked Questions:
+  - 7.1 - How to Install StateCU?: FAQ/71.md
+  - 7.2 - What is a Scenario?: FAQ/72.md
+  - 7.3 - How to Open an Existing Scenario?: FAQ/73.md
+  - 7.4 - How to Document a Scenario?: FAQ/74.md
+  - 7.5 - How to Create a Subset Scenario from an Existing Scenario?: FAQ/75.md
+  - 7.6 - How to Create a New Scenario?: FAQ/76.md
+  - 7.7 - What is the Difference Bewteen a Climate Station and Structure Scenario?: FAQ/77.md
+  - 7.8 - What is the Difference Between Monthly and Daily Consumptive Use Analysis?: FAQ/78.md
+  - 7.9 - What is the Difference Between Potential Consumptive Use and Irrigation Water Requirement?: FAQ/79.md
+  - 7.10 - What is a Supply Limited Consumptive Use Analysis?: FAQ/710.md
+  - 7.11 - What is a Ground Water Analysis?: FAQ/711.md
+  - 7.12 - What is a Water Rights Analysis?: FAQ/712.md
+  - 7.13 - How to Analyze a Fraction of a Ditch?: FAQ/713.md
+  - 7.14 - What is the Difference Between an Elevation and Orographic Adjustment?: FAQ/714.md
+  - 7.15 - What input files are required for a climate station scenario?: FAQ/715.md
+  - 7.16 - How to Create an AWAS Input File?: FAQ/716.md
+- 8 - Supporting Utilities:
+  - 8.1 - CDSS Database (HydroBase): Supporting Utilities/81.md
+  - 8.2 - StateDMI (StateMod): Supporting Utilities/82.md
+  - 8.3 - StateDMI (StateCU): Supporting Utilities/83.md
+  - 8.4 - TSTool DMI: Supporting Utilities/84.md
+- Appendix A - Example Files:
+  - A.1 - StateCU Response File (*.rcu): Appendix A/A1.md
+  - A.2 - Model Control File (*.ccu): Appendix A/A2.md
+  - A.3 - Climate Station Information File (*.cli): Appendix A/A3.md
+  - A.4 - Structure Location File (*.str): Appendix A/A4.md
+  - A.5 - Monthly Temperature File (*.tmp): Appendix A/A5.md
+  - A.6 - Monthly Precipitation File (*.prc): Appendix A/A6.md
+  - A.7 - Frost Date File (*.fd): Appendix A/A7.md
+  - A.8 - Crop Characteristic File (*.cch): Appendix A/A8.md
+  - A.9 - Blaney-Criddle Crop Coefficient File (*.kbc): Appendix A/A9.md
+  - A.10 - Crop Distribution File (*.cds): Appendix A/A10.md
+  - A.11 - Historical Direct Diversion File (*.ddh): Appendix A/A11.md
+  - A.12 - Ground Water Pumping File (*.pvh): Appendix A/A12.md
+  - A.13 - Irrigation Parameter Yearly Data File (*.ipy): Appendix A/A13.md
+  - A.14 - Direct Diversion Rights File (*.ddr): Appendix A/A14.md
+  - A.15 - Monthly Administration Number Time Series File (*.adm): Appendix A/A15.md
+  - A.16 - Daily Historical Diversions File (*.ddy): Appendix A/A16.md
+  - A.17 - Daily Maximum Temperature File (tmax.stm): Appendix A/A17.md
+  - A.18 - Daily Minimum Temperature File (tmin.stm): Appendix A/A18.md
+  - A.19 - Daily Precipitation File (ppt.stm): Appendix A/A19.md
+  - A.20 - Daily Solar Radiation File (rad.stm): Appendix A/A20.md
+  - A.21 - Daily Vapor Pressure File (vap.stm): Appendix A/A21.md
+  - A.22 - Daily Wind Speed File (wind.stm): Appendix A/A22.md
+  - A.23 - Monthly Drain File (*.dra): Appendix A/A23.md
+  - A.24 - Monthly Replacement Crop Requirement (*.rcr): Appendix A/A24.md
+  - A.25 - Monthly Partial Crop Requirement (*.pcr): Appendix A/A25.md
+  - A.26 - Binary File (*.bd1) Parameter Descriptions: Appendix A/A26.md
+  - A.27 - Input Summary Output File (*.sum): Appendix A/A27.md
+  - A.28 - Crop Irrigation Water Requirement Output File (*.cir): Appendix A/A28.md
+  - A.29 - Supply-limited Consumptive Use Output File (*.wsl): Appendix A/A29.md
+  - A.30 - Detailed Water Budget Output File (*.dwb): Appendix A/A30.md
+  - A.31 - Farm Water Budget (For Scenario) Output File (*.swb): Appendix A/A31.md
+  - A.32 - Detailed 4 Land Category Water Budget Output File (*.4wb): Appendix A/A32.md
+  - A.33 - Detailed Blaney-Criddle Output File (*.obc): Appendix A/A33.md
+  - A.34 - Detailed Penman-Monteith Output File (*.opm): Appendix A/A34.md
+  - A.35 - StateMod Formatted Crop Irrigation Water Requirement File (*.ddc): Appendix A/A35.md
+  - A.36 - StateMod Formatted Ground Water Pumping File (*.gwp): Appendix A/A36.md
+  - A.37 - StateMod Formatted Average Monthly Efficiency Files (*.def, *.wef): Appendix A/A37.md
+  - A.38 - Growing Season File (season.csv): Appendix A/A38.md
+- Appendix B - StateCU Program Flow Charts and Subroutines: 
+  - B.1 - Supporting Flow Charts: Appendix B/B1.md
+  - B.2 - Descriptions of Program Subroutines: Appendix B/B2.md
 # ------- configuration properties ---------------
-# Alphabetize
-# ------------------------------------------------
-copyright:  'Colorado Department of Natural Resources'
-# ------------------------------------------------
-# Use extra CSS to customize styles, based on theme
-extra_css:
-  - 'css/extra-material-theme.css'
-# ------------------------------------------------
-# Google Analytics
-# - see:  https://squidfunk.github.io/mkdocs-material/getting-started/#google-analytics
-google_analytics:
- - 'UA-43023264-1'
- - auto
-# ------------------------------------------------
-# Don't publish the repo because it leads to irritating edit links
-#repo_url:  https://github.com/OpenCDSS/cdss-app-statecu-fortran-doc-user
-# ------------------------------------------------
-site_author: 'Colorado Department of Natural Resources'
-site_description:  'CDSS StateCU Documentation'
-# ------------------------------------------------
 # Use Material theme
 # - installation notes:  https://github.com/squidfunk/mkdocs-material
 theme:
-  name: material
-  favicon: 'images/StateCU-favicon.ico'
-# ------------------------------------------------
+  name: 'material'
+  favicon: 'images/DWR_icon.gif'
+#theme: readthedocs
+# Don't indicate the repo because Edit will be shown on every page (don't want that in deployed mode)
+# - Also see edit_uri if repo_url is specified
+#repo_url:  https://github.com/OpenCDSS/cdss-website-hydrobase
+site_description:  'StateCU Documentation'
+site_author:  'Colorado Department of Natural Resources'
+copyright:  'Copyright Colorado Department of Natural Resources'
+# Extra options
+extra:
+ #Use extra CSS to customize styles, based on theme
+ extra_css: 'css/extra-material-theme.css'
+extra_javascript:
+  - 'https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.0/MathJax.js?config=TeX-MML-AM_CHTML'
+  - 'https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS_HTML'
+markdown_extensions:
+  - mdx_math

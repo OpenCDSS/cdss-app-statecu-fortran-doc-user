@@ -1,0 +1,86 @@
+# Introduction #
+
+The State of Colorado's Consumptive Use Model (StateCU) was developed to estimate and report crop
+consumptive use within the state. It consists of a FORTRAN-based computer program and an associated
+graphical user interface. The crop consumptive use methods employed in the program and the interface are
+the Modified Blaney-Criddle, the Original Blaney-Criddle, and the Pochop (for bluegrass only) methods
+with calculations on a monthly basis and the ASCE Standardized Penman-Monteith method with
+calculations on a daily basis. Other crop consumptive use methods available when the FORTRAN program
+is operated independently of the interface include the Penman-Monteith and the Modified Hargreaves
+methods, operated on a daily time step.
+
+This document was prepared to explain the features and functions of StateCU and presumes the reader has a
+basic understanding of consumptive use analyses. It is intended for use by engineers, water resource
+planners, and others involved in water management decision making. [Section 2](../GUI/introduction.md) 
+and [Section 3](../Model Description/CropIrr.md) provide a general 
+description of the model and the necessary instruction to operate StateCU through the graphical user
+interface. [Section 4](../Input Description/41.md) through [Appendix B](../Appendix B/B1.md) provide the detail required to develop datasets and determine
+consumptive use estimates for a specific area. 
+
+StateCU allows several levels of analysis as follows:
+
+* Crop Irrigation Water Requirement by CU Location
+* Water Supply Limited Crop Consumptive Use by Structure
+* Water Supply Limited Crop Consumptive Use by Structure Considering Ground Water
+* Water Supply Limited Crop Consumptive Use by Structure and Priority 
+
+StateCU determines crop CU by ‘CU Location’. A CU Location can be a climate station, a specific
+diversion structure, a combination of diversion structures, or specific area of land. A CU Location is
+defined by latitude, associated climate stations, crop types, and acreage. A flag in the input control file
+specifies whether the CU Location is associated with a climate station or structure. The only analyses
+available with a Climate Station Scenario are the potential crop consumptive use and irrigation water
+requirement, as reflected by a simplified set of input screens displayed by the graphical user interface. The
+water supply limited crop consumptive use and other more complex levels of analyses are available under a
+Structure Scenario. 
+
+A number of base datasets are available through the CDSS Website to allow the user to quickly perform
+StateCU analyses. These include: 
+
+* Primary Climate Stations throughout Colorado (climate data not filled)
+* Primary Climate Stations for the Western Slope of Colorado (climate data filled)
+* Primary Climate Stations for the Arkansas Basin (climate data filled)
+* Primary Irrigation Structures in the Gunnison River Basin (climate and diversion data filled)
+* Primary Climate Stations for the Rio Grande Basin (climate data filled)
+* Primary Irrigation Structures in the Rio Grande Basin (climate and diversion data filled)
+* Primary Irrigation Structures in the San Juan/Dolores River Basin (climate and diversion data filled)
+* Primary Climate Stations for the South Platte Basin (climate data filled)
+* Primary Irrigation Structures in the South Platte Basin (climate and diversion data filled)
+* Primary Irrigation Structures in the Upper Colorado River Basin (climate and diversion data filled)
+* Primary Irrigation Structures in the White River Basin (climate and diversion data filled)
+* Primary Irrigation Structures in the Yampa River Basin (climate and diversion data filled) 
+
+StateCU features a scenario creation HydroBase Wizard that allows the user to interactively build a data set
+to estimate potential consumptive use or water-supply limited consumptive use at user-defined location. The
+HydroBase Wizard allows the user to extract required input data, such a climate data, diversion records, and
+crop coefficients; directly from HydroBase through an internet connection. 
+
+Following is a general sequence for operating StateCU for a given level of analysis:
+
+1. If the provided datasets are not adequate for the desired analysis, the StateCU HydroBase Wizard can be
+used to interactively create a dataset at a user-defined location, or the CDSS Data Management
+Interfaces can be used to create more complex datasets interactively with HydroBase, or the necessary
+input files can be developed following the formats in [Section 4](../Input Description/41.md) of this report.
+2. Run the StateCU FORTRAN model through the graphical user interface, as described in [Section 2](../GUI/introduction.md), or
+stand-alone as described in [Section 6](../Model Operation/61.md).
+3. Evaluate results by generating output graphs and tables through the graphical user interface, or
+reviewing output reports generated by the StateCU FORTRAN program as described in [Section 5](../Output Description/51.md). 
+
+The remainder of this document is organized as follows: 
+
+[2. Graphical User Interface](../GUI/introduction.md)
+
+[3. Model Description](../Model Description/CropIrr.md)
+
+[4. Input Description](../Input Description/41.md)
+
+[5. Output Description](../Output Description/51.md)
+
+[6. Model Operation](../Model Operation/61.md)
+
+[7. Frequently Asked Questions](../FAQ/71.md)
+
+[8. Supporting Utilities](../Supporting Utilities/81.md)
+
+[Appendix A. Example Files](../Appendix A/A1.md)
+
+[Appendix B. StateCU Program Flow Charts and Subroutines](../Appendix B/B1.md)
