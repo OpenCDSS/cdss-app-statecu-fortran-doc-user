@@ -1,9 +1,0 @@
-The __Run Simulation__ command is activated once a dataset has been loaded. When a run is initiated, the
-StateCU GUI shells out to a DOS window to execute the StateCU program. The process status and any
-warning or error messages are displayed in the DOS window during StateCU execution. If the execution is
-successful, the DOS window will either close automatically or prompt the user to press the Enter key, and
-the user will be returned to the GUI to view output ([Section 2.7](../GUI/resultsmenu.md) below). If the execution is unsuccessful, the
-StateCU generated log file will be displayed on the screen with a description of the error that caused the
-program to terminate. The user should view the __StateCU Fortran Program Log File__ located in the
-__Results__ menu or through a text editor even with a successful execution, as it may contain warnings or other
-pertinent information. 
