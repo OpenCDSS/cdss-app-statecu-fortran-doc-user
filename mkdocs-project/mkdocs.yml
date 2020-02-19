@@ -28,7 +28,7 @@ nav:
   - 4.4 - Model Control File (*.ccu): InputDescription/44.md
   - 4.5 - Climate Station Information File (*.cli): InputDescription/45.md
   - 4.6 - Structure Location File (*.str): InputDescription/46.md
-  - 4.7 - Monthly Temperature File (*.tmp): InputDescription/47.md
+  - 4.7 - Monthly Temperature File (*.tem): InputDescription/47.md
   - 4.8 - Monthly Precipitation File (*.prc): InputDescription/48.md
   - 4.9 - Front Date File (*.fd): InputDescription/49.md
   - 4.10 - Crop Characteristic File (*.cch): InputDescription/410.md
@@ -102,7 +102,7 @@ nav:
   - A.2 - Model Control File (*.ccu): AppendixA/A2.md
   - A.3 - Climate Station Information File (*.cli): AppendixA/A3.md
   - A.4 - Structure Location File (*.str): AppendixA/A4.md
-  - A.5 - Monthly Temperature File (*.tmp): AppendixA/A5.md
+  - A.5 - Monthly Temperature File (*.tem): AppendixA/A5.md
   - A.6 - Monthly Precipitation File (*.prc): AppendixA/A6.md
   - A.7 - Frost Date File (*.fd): AppendixA/A7.md
   - A.8 - Crop Characteristic File (*.cch): AppendixA/A8.md
