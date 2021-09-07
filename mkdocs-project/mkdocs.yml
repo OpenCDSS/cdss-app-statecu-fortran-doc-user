@@ -159,5 +159,7 @@ extra:
 extra_javascript:
   - 'https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.0/MathJax.js?config=TeX-MML-AM_CHTML'
   - 'https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS_HTML'
+# Install the math extension on Windows Python with:
+#   py -m pip python-markdown-math
 markdown_extensions:
   - mdx_math
