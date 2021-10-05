@@ -169,14 +169,11 @@ syncFiles() {
         gsutil.cmd -m rsync -d -r ${dryrun} $siteFolder ${gsFolderLatest}
         exitStat=$?
         return ${exitStat}
-      else
-        if [ ! -z "${statecuVersionModifier}" ]; then
-          # Updating to latest is only valid when there is not a version modifier.
-          echo ""
-          echo 'Remember to run with -l option if you want to upload to the "latest" folder.'
-          echo ""
-        fi
       fi
+    else
+      echo ""
+      echo 'Remember to run with -l option to also upload to the "latest" folder.'
+      echo ""
     fi
   fi
 }
