@@ -53,6 +53,7 @@ nav:
   - 4.29 - Monthly Replacement Crop Requirement (*.rcr): InputDescription/429.md
   - 4.30 - Monthly Partial Crop Requirement (*.pcr): InputDescription/430.md
   - 4.31 - GUI-Specific GIS Shape Files: InputDescription/431.md
+  - 4.32 - Annual Surface Water Direct Use File (*.swd): InputDescription/432.md
 - 5 - Output Description:
   - 5.1 - Remarks: OutputDescription/51.md
   - 5.2 - Input Summary Output File (*.sum): OutputDescription/52.md
@@ -97,6 +98,7 @@ nav:
   - 8.2 - StateDMI (StateMod): SupportingUtilities/82.md
   - 8.3 - StateDMI (StateCU): SupportingUtilities/83.md
   - 8.4 - TSTool DMI: SupportingUtilities/84.md
+  - 8.5 - StateCUASCEpt tool: SupportingUtilities/85.md
 - Appendix A - Example Files:
   - A.1 - StateCU Response File (*.rcu): AppendixA/A1.md
   - A.2 - Model Control File (*.ccu): AppendixA/A2.md
@@ -121,21 +123,22 @@ nav:
   - A.21 - Daily Vapor Pressure File (vap.stm): AppendixA/A21.md
   - A.22 - Daily Wind Speed File (wind.stm): AppendixA/A22.md
   - A.23 - Monthly Drain File (*.dra): AppendixA/A23.md
-  - A.24 - Monthly Replacement Crop Requirement (*.rcr): AppendixA/A24.md
-  - A.25 - Monthly Partial Crop Requirement (*.pcr): AppendixA/A25.md
-  - A.26 - Binary File (*.bd1) Parameter Descriptions: AppendixA/A26.md
-  - A.27 - Input Summary Output File (*.sum): AppendixA/A27.md
-  - A.28 - Crop Irrigation Water Requirement Output File (*.cir): AppendixA/A28.md
-  - A.29 - Supply-limited Consumptive Use Output File (*.wsl): AppendixA/A29.md
-  - A.30 - Detailed Water Budget Output File (*.dwb): AppendixA/A30.md
-  - A.31 - Farm Water Budget (For Scenario) Output File (*.swb): AppendixA/A31.md
-  - A.32 - Detailed 4 Land Category Water Budget Output File (*.4wb): AppendixA/A32.md
-  - A.33 - Detailed Blaney-Criddle Output File (*.obc): AppendixA/A33.md
-  - A.34 - Detailed Penman-Monteith Output File (*.opm): AppendixA/A34.md
-  - A.35 - StateMod Formatted Crop Irrigation Water Requirement File (*.ddc): AppendixA/A35.md
-  - A.36 - StateMod Formatted Ground Water Pumping File (*.gwp): AppendixA/A36.md
-  - A.37 - StateMod Formatted Average Monthly Efficiency Files (*.def, *.wef): AppendixA/A37.md
-  - A.38 - Growing Season File (season.csv): AppendixA/A38.md
+  - A.24 - Monthly Replacement Crop Requirement File (*.rcr): AppendixA/A24.md
+  - A.25 - Monthly Partial Crop Requirement File (*.pcr): AppendixA/A25.md
+  - A.26 - Annual Surface Water Direct Use File (*.swd): AppendixA/A26.md
+  - A.27 - Binary File (*.bd1) Parameter Descriptions: AppendixA/A27.md
+  - A.28 - Input Summary Output File (*.sum): AppendixA/A28.md
+  - A.29 - Crop Irrigation Water Requirement Output File (*.cir): AppendixA/A29.md
+  - A.30 - Supply-limited Consumptive Use Output File (*.wsl): AppendixA/A30.md
+  - A.31 - Detailed Water Budget Output File (*.dwb): AppendixA/A31.md
+  - A.32 - Farm Water Budget (For Scenario) Output File (*.swb): AppendixA/A32.md
+  - A.33 - Detailed 4 Land Category Water Budget Output File (*.4wb): AppendixA/A33.md
+  - A.34 - Detailed Blaney-Criddle Output File (*.obc): AppendixA/A34.md
+  - A.35 - Detailed Penman-Monteith Output File (*.opm): AppendixA/A35.md
+  - A.36 - StateMod Formatted Crop Irrigation Water Requirement File (*.ddc): AppendixA/A36.md
+  - A.37 - StateMod Formatted Ground Water Pumping File (*.gwp): AppendixA/A37.md
+  - A.38 - StateMod Formatted Average Monthly Efficiency Files (*.def, *.wef): AppendixA/A38.md
+  - A.39 - Growing Season File (season.csv): AppendixA/A39.md
 - Appendix B - StateCU Program Flow Charts and Subroutines: 
   - B.1 - Supporting Flow Charts: AppendixB/B1.md
   - B.2 - Descriptions of Program Subroutines: AppendixB/B2.md

@@ -153,7 +153,7 @@ syncFiles() {
   read -p "Continue with upload (Y/n)? " answer
   if [ -z "${answer}" -o "${answer}" = "Y" -o "${answer}" = "y" ]; then
     # Continue with copy to versioned folder.
-    gsutil.cmd -m rsync -d -r ${dryrun} $siteFolder ${gsFolderVersion}
+    gsutil -m rsync -d -r ${dryrun} $siteFolder ${gsFolderVersion}
     exitStat=$?
     if [ ${exitStat} -ne 0 ]; then
       return ${exitStat}
